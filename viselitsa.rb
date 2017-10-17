@@ -11,7 +11,7 @@ require_relative "game"
 require_relative "result_printer"
 require_relative "word_reader"
 
-puts "Игра виселица. Версия 3. (c) goodprogrammer.ru\n\n"
+puts "Игра виселица. Версия 3"
 sleep 1
 
 printer = ResultPrinter.new
