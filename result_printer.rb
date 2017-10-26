@@ -48,7 +48,6 @@ class ResultPrinter
 
   def get_word_for_print(letters, good_letters)
     result = ""
-
     for item in letters do
       if good_letters.include?(item)
         result += item + " "
@@ -56,12 +55,10 @@ class ResultPrinter
         result += "__ "
       end
     end
-
     return result
   end
 
   def cls
     system("clear") || system("cls")
   end
-
 end
